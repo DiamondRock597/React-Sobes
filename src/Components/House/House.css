@@ -1,0 +1,35 @@
+.home{
+    border: 1px solid rgb(105, 96, 96,.5);
+    padding: 25px;
+    text-align: center;
+    width: 400px;
+
+}
+.home__text{
+    color: #232323;
+    line-height: 1;
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.home:hover{
+    border:1.5px solid rgb(53, 48, 48);
+}
+
+.home__img {
+    width:  300;
+}
+
+.home__info{
+    display: flex;
+    justify-content: space-around;
+    font-style: 16px;
+}
+
+.home__info svg{
+    width: 1.07rem;
+    height: 1.06rem;
+    opacity: .6;
+    margin-right: 5px;
+}
