@@ -1,16 +1,14 @@
-import { OPEN_MODAL, CLOSE_MODAL } from '../actions/types'
+import { OPEN_MODAL, CLOSE_MODAL } from "../actions/types";
 
 export default (state = {}, action) => {
-    switch (action.type) {
+  switch (action.type) {
+    case OPEN_MODAL:
+      return { isOpen: true, itemModal: action.payload };
 
-        case OPEN_MODAL:
-            return { isOpen: true, itemModal: action.payload }
+    case CLOSE_MODAL:
+      return { isOpen: false, itemModal: {} };
 
-        case CLOSE_MODAL:
-            return { isOpen: false, itemModal: {} }
-
-        default:
-            return state
-
-    }
-}
+    default:
+      return state;
+  }
+};

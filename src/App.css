@@ -1,42 +1,37 @@
-a, .nav-link, .navbar-nav {
+a,
+.nav-link,
+.navbar-nav {
   color: #adb1b8;
   font-size: 20px;
-  
 }
 
-.nav-link :hover{
-  color:white;
+.nav-link :hover {
+  color: white;
 }
 
-.block{
+.block {
   display: flex;
   justify-content: center;
-  
-  flex-direction:  row;
+
+  flex-direction: row;
   flex: 0 1 auto;
   flex-wrap: wrap;
-  
-  
 }
 
-.title{
+.title {
   text-align: center;
   padding: 30px;
 }
-.price{
+.price {
   font-weight: 700;
   padding: 5px 0;
   letter-spacing: 1px;
-  
 }
-
-
 
 .lds-dual-ring {
   display: inline-block;
   width: 80px;
   height: 80px;
- 
 }
 .lds-dual-ring:after {
   content: " ";
@@ -58,55 +53,43 @@ a, .nav-link, .navbar-nav {
   }
 }
 
-
-
-.loader-wraper{
+.loader-wraper {
   display: flex;
   justify-content: center;
 }
 
-
-.modal__photo img{
-  border-radius:5px;
+.modal__photo img {
+  border-radius: 5px;
   text-align: center;
   width: 100%;
   height: 80%;
 }
 
-.modal__info{
-  border-top: .5px solid rgba(128, 128, 128, 0.315);
-  
+.modal__info {
+  border-top: 0.5px solid rgba(128, 128, 128, 0.315);
+
   margin-top: 8px;
   font-size: 18px;
-  
-
 }
 
-.modal__area   {
-
+.modal__area {
   text-align: left;
-
 }
 
-.modal__area span{
+.modal__area span {
   padding-left: 15px;
 }
 
-
-
-.modal__layouts{
-  border-top: .5px solid rgba(128, 128, 128, 0.315); 
+.modal__layouts {
+  border-top: 0.5px solid rgba(128, 128, 128, 0.315);
   padding-top: 10px;
   margin-top: 8px;
 }
-.layout{
-  
+.layout {
   font-size: 20px;
-
 }
 
-.pagination{
-    padding: 35px;
-    justify-content: center;
+.pagination {
+  padding: 35px;
+  justify-content: center;
 }
-
