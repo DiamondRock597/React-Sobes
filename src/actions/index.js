@@ -1,6 +1,6 @@
 import { GET_DATA, CLOSE_MODAL, OPEN_MODAL, LOADING } from "./types";
 
-const loading = () => {
+export const loading = () => {
   return {
     type: LOADING,
   };
