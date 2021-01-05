@@ -1,0 +1,113 @@
+{
+  "items": [
+    {
+      "updatedAt": "2020-11-27T14:38:47.035128+03:00",
+      "communication": {
+        "sewerageSupply": "central",
+        "gasSupply": "mains",
+        "powerSupply": 15,
+        "waterSupply": "central"
+      },
+      "location": {
+        "latitude": "55.738826751708984",
+        "districtId": 1012,
+        "localityId": 1030,
+        "settlementName": "Жуковка",
+        "settlementId": 241,
+        "countryName": "Россия",
+        "routeId": 1178,
+        "districtName": "Одинцовский",
+        "longitude": "37.248207092285156",
+        "mkadDistance": 9,
+        "countryId": 1,
+        "house": "103",
+        "routeName": "Рублёво-Успенское",
+        "localityName": "Жуковка",
+        "street": "Жуковка за Царской охотой",
+        "regionId": 1003,
+        "regionName": "Московская область"
+      },
+      "externalId": null,
+      "rentOffer": null,
+      "state": "public",
+      "saleOffer": {
+        "isMortgage": false,
+        "priceDelta": null,
+        "agentFixedPrice": null,
+        "price": 4500000,
+        "agentFee": 4.0,
+        "isBargain": false,
+        "isResale": true,
+        "multiCurrencyPrice": {
+          "eur": 3662000,
+          "usd": 4500000,
+          "rub": 332441000
+        },
+        "currency": "USD",
+        "kind": "direct_sell",
+        "isDisabled": false,
+        "isInstallment": false
+      },
+      "clientLeadId": 83000,
+      "linkedContactIds": [128932],
+      "additionalDetails": {
+        "garageArea": 2.0,
+        "parkingArea": 5.0,
+        "bathhouseArea": null,
+        "staffHouseArea": 120.0,
+        "spaArea": null,
+        "securityHouseArea": null,
+        "guestHouseArea": null
+      },
+      "stateDetails": {
+        "reason": null
+      },
+      "responsibleUser": {
+        "departmentId": 3,
+        "id": 108,
+        "divisionId": null
+      },
+      "createdByUserId": 108,
+      "layoutImages": [],
+      "specification": {
+        "loggias": null,
+        "bedrooms": 5,
+        "area": 1400.0,
+        "elevators": null,
+        "balconies": null,
+        "roofMaterial": "tile",
+        "legacyLayouts": [],
+        "renovate": "full_construction",
+        "layouts": {
+          "wine_room": 1,
+          "spa_zone": 1,
+          "office": 1,
+          "technical_room": 1,
+          "staff_room": 1,
+          "dining_room": 1,
+          "game_room": 1,
+          "winter_garden": 1,
+          "kitchen": 1,
+          "dressing_room": 3,
+          "storage": 1,
+          "utility_room": 1,
+          "loft": 1,
+          "movie_theater": 1,
+          "living_room": 1,
+          "gym": 1
+        },
+        "wcs": 7,
+        "rooms": null,
+        "ceilingHeight": null,
+        "withVentilation": true,
+        "wallMaterial": "brick",
+        "condition": "great",
+        "floors": 3,
+        "furniture": "full",
+        "builtYear": 2012,
+        "spaces": [],
+        "withConditioning": true
+      }
+    }
+  ]
+}
